@@ -27,6 +27,10 @@
 		font-weight: bold;
 	}
 
+	a:hover {
+		color: aqua;
+	}
+
 	@media (min-width: 480px) {
 		footer {
 			padding: 40px 0;
