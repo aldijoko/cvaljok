@@ -3,24 +3,30 @@
 	import logo from './svelte-logo.svg';
 </script>
 
-<header class="w-full flex justify-center bg-blue-600 fixed h-16">
+<header class="w-screen flex items-center bg-blue-600 fixed h-16">
 
-	<nav class="w-full">
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
-		<ul>
-			<li class:is-active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:is-active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<!-- <li class:is-active={$page.url.pathname === '/todos'}>
-				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li> -->
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
+	<nav class="base-container flex justify-between">
+		<div class="flex text-4xl gap-2">
+			<a rel="prefetch" href="/" class=" text-white">
+				Aldi
+			</a>
+			<a rel="prefetch" href="/" class="text-red-600">
+				Joko
+			</a>
+		</div>
+		<div class="flex justify-end header-list">
+			<ul>
+				<li class:is-active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+				<li class:is-active={$page.url.pathname === '/about'}>
+					<a sveltekit:prefetch href="/about">About</a>
+				</li>
+				<!-- <li class:is-active={$page.url.pathname === '/todos'}>
+					<a sveltekit:prefetch href="/todos">Todos</a>
+				</li> -->
+			</ul>
+			
+		</div>
+		
 	</nav>
 
 	
@@ -30,11 +36,11 @@
 
 
 
-	nav {
+	/* nav {
 		display: flex;
 		justify-content: center;
 		--background: rgba(255, 255, 255, 0.7);
-	}
+	} */
 
 	/* svg {
 		width: 2em;
@@ -82,12 +88,12 @@
 		border-radius: 25%;
 	}
 
-	nav a {
+	.header-list a {
 		display: flex;
 		height: 100%;
 		align-items: center;
 		padding: 0 1em;
-		color: var(--heading-color);
+		/* color: var(--heading-color); */
 		font-weight: 700;
 		font-size: 0.8rem;
 		text-transform: uppercase;
