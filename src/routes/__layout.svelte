@@ -16,7 +16,7 @@
 <footer class="bg-blue-200">
 	<div class="flex items-center gap-1">
 		<p>Made With</p>
-		<span class="iconify text-red-500" data-icon="akar-icons:heart"></span>
+		<span class="iconify text-red-500" data-icon="ant-design:heart-filled"></span>
 		<p>by <a href="https://github.com/aldijoko">Aldi Joko</a></p>
 	</div>
 	<span class="text-gray-500">Copyright Aldi Joko © 2022. All rights reserved.</span>
