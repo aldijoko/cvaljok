@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.base-container {
+	@apply w-full md:w-4/5 mx-auto px-4 md:px-0;
+}
