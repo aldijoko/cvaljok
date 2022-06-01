@@ -1,5 +1,6 @@
 <script>
 	import { slide } from 'svelte/transition';
+	import { fly, fade } from 'svelte/transition';
 	import { goto } from '$app/navigation';
 
 	function onClick() {
@@ -8,8 +9,8 @@
 </script>
 
 <div class="w-full pt-24 h-full bg-blue-300">
-	<div class="base-container flex p-7 " >
-		<img src="/hello.svg" alt="avatar" class="w-1/2 " />
+	<div class="base-container flex p-7 ">
+		<img src="/hello.svg" alt="avatar" class="w-1/2 hidden md:flex"  transition:slide="{{duration: 200}}"/>
 		<div class="p-14 px-20">
 			<p class="font-serif text-3xl font-normal italic tracking-widest mb-5">Hello!</p>
 			<p class="text-5xl font-semibold mb-10">I'm Aldi Joko</p>
@@ -33,9 +34,9 @@
 					</li>
 				</ul>
 			</div>
-			<div class="w-full">
-				<button class="btn w-full mb-5" on:click={() => goto('/about')}>About Me!</button>
-				<button class="btn w-full">Download CV</button>
+			<div class="w-full" >
+				<button class="btn w-full mb-5" on:click={() => goto('/about')} in:fly="{{ x: 200 }}" out:fade>About Me!</button>
+				<button class="btn w-full" in:fly="{{ y: 200 }}" out:fade>Download CV</button>
 			</div>
 		</div>
 		<!-- <div>
