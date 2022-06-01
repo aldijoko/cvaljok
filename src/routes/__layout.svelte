@@ -8,18 +8,17 @@
 	
 </script>
 
-<div class="w-full overflow-hidden">
+<div class="w-screen overflow-hidden">
 	<Header />
-	<main >
-		<slot />
-	</main>
-	<div class="h-max">
-		<Footer/>
-	</div>
 </div>
 
 
-
+<main class="overflow-y-auto w-full h-screen">
+	<slot />
+	<div class="h-max">
+		<Footer/>
+	</div>
+</main>
 
 
 

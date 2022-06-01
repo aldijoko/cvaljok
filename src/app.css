@@ -9,5 +9,5 @@
 }
 
 .base-container {
-	@apply w-full md:w-4/5 mx-auto px-2 md:px-0;
+	@apply w-full md:w-4/5 mx-auto px-4;
 }

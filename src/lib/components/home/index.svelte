@@ -9,7 +9,7 @@
 
 <div class="w-full pt-24 h-full bg-blue-300">
 	<div class="base-container flex p-7 " >
-		<img src="/hello.svg" alt="avatar" class="w-1/2" />
+		<img src="/hello.svg" alt="avatar" class="w-1/2 " />
 		<div class="p-14 px-20">
 			<p class="font-serif text-3xl font-normal italic tracking-widest mb-5">Hello!</p>
 			<p class="text-5xl font-semibold mb-10">I'm Aldi Joko</p>

@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="w-full bg-blue-200 p-3">
+<div class="w-full bg-blue-200 p-4">
 	<div class="flex justify-center items-center gap-1">
 		<p>Made With</p>
 		<span class="iconify text-red-500" data-icon="ant-design:heart-filled" />
