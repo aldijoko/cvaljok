@@ -7,10 +7,10 @@
 
 	<nav class="base-container flex justify-between">
 		<div class="flex text-4xl gap-2">
-			<a rel="prefetch" href="/" class=" text-white">
+			<a rel="prefetch" href="/" class="font-bold text-white">
 				Aldi
 			</a>
-			<a rel="prefetch" href="/" class="text-red-600">
+			<a rel="prefetch" href="/" class="font-sans font-bold text-red-600">
 				Joko
 			</a>
 		</div>
