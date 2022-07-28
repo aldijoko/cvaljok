@@ -3,9 +3,10 @@
 	import { fly, fade } from 'svelte/transition';
 	import { goto } from '$app/navigation';
 
-	function onClick() {
-		console.log('tes')
+	const onClick = () => {
+		alert('Terimakasih, Ditunggu informasi selanjutnya')
 	}
+
 </script>
 
 <div class="w-full pt-24 h-full bg-blue-300">
@@ -15,7 +16,7 @@
 			<p class="font-serif text-3xl font-normal italic tracking-widest mb-5">Hello!</p>
 			<p class="text-5xl font-semibold mb-10">I'm Aldi Joko</p>
 			<p class="text-3xl font-mono tracking-wide underline-offset-8 mb-3">
-				<a class="underline decoration-red-500">Frontend Developer</a>
+				<a class="underline decoration-red-500">Jr. Frontend Developer</a>
 			</p>
 			<div class="w-full flex gap-3 items-center justify-center mb-8">
 				<p class="w-full italic text-sm">Check Out My :</p>
@@ -35,8 +36,8 @@
 				</ul>
 			</div>
 			<div class="w-full" >
-				<button class="btn w-full mb-5" on:click={() => goto('/about')} in:fly="{{ x: 200 }}" out:fade>About Me!</button>
-				<button class="btn w-full" in:fly="{{ y: 200 }}" out:fade>Download CV</button>
+				<a href="./File/aldijoko-cvats.pdf" on:click={onClick} download class="btn w-full mb-5" in:fly="{{ x: 200 }}" out:fade>Download CV ATS</a>
+				<a href="./File/aldijoko-cvcreative.pdf" download class="btn w-full" on:click={onClick} in:fly="{{ y: 200 }}" out:fade>Download CV Creative</a>
 			</div>
 		</div>
 		<!-- <div>
