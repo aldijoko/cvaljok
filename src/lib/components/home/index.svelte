@@ -62,7 +62,7 @@
 	}
 
 	.btn {
-		@apply flex items-center justify-center font-medium not-italic px-8 py-2 rounded-md bg-red-500 text-white;
+		@apply flex items-center justify-center font-medium not-italic px-8 py-2 rounded-md text-center bg-red-500 text-white;
 	}
 
 	.btn:hover {
