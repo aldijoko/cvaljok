@@ -17,7 +17,7 @@
 <div class="w-full">
 	<div class="bg-img">
 		<div class="base-container pt-32 mx-auto">
-			<img src="/profilefoto.JPG" alt="" class="h-10 w-10">
+			<!-- <img src="/profilefoto.JPG" alt="" class="h-10 w-10"> -->
 		</div>
 		
 	</div>
