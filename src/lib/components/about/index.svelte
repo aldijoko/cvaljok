@@ -6,13 +6,13 @@
 	<div class="w-full bg-gray-300">
 		<div class="base-container pt-40">
 			<div class="w-full relative">
-				<div class="top-left"></div>
-				<div class="top-right"></div>
-				<div class="bottom-left"></div>
-				<div class="bottom-right"></div>
-				<div class="w-1/2 h-[300px] bg-white border border-gray-600 rounded-md shadow-md absolute -top-44 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex">
-					<div class="w-1/2 h-full">
-						<img class="w-full h-full object-contain" src="/profilefoto.JPG" alt="">
+				<div class="top-left hidden md:block"></div>
+				<div class="top-right hidden md:block"></div>
+				<div class="bottom-left hidden md:block"></div>
+				<div class="bottom-right hidden md:block"></div>
+				<div class="w-full md:w-1/2 h-auto md:h-[300px] bg-white border border-gray-600 rounded-md shadow-md md:absolute md:-top-44 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 flex">
+					<div class="hidden md:block w-full md:w-1/2 h-full">
+						<img class="hidden md:block w-full h-full object-contain" src="/profilefoto.JPG" alt="">
 					</div>
 					<div class="w-full h-full">
 						<div class="w-full p-5">
