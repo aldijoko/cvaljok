@@ -10,15 +10,16 @@
 
 <div class="w-screen overflow-hidden">
 	<Header />
+	<main class="overflow-y-auto w-full h-screen">
+		<slot />
+		<div class="h-max">
+			<Footer/>
+		</div>
+	</main>
 </div>
 
 
-<main class="overflow-y-auto w-full h-screen">
-	<slot />
-	<div class="h-max">
-		<Footer/>
-	</div>
-</main>
+
 
 
 
