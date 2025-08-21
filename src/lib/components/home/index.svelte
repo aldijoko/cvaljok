@@ -37,11 +37,11 @@
 			</div>
 			<div class="w-full" >
 				<div class="mb-5">
-					<a href="./File/aldijoko-cvats.pdf" on:click={onClick} download class="btn w-full" in:fly="{{ x: 200 }}" out:fade>Download CV ATS</a>
+					<a href="" on:click={onClick} download class="btn w-full" in:fly="{{ x: 200 }}" out:fade>Download CV ATS</a>
 					<p class="text-xs text-red-500 font-bold">*Last updated June 2022</p>
 				</div>
 				<div>
-					<a href="./File/aldijoko-cvcreative.pdf" download class="btn w-full" on:click={onClick} in:fly="{{ y: 200 }}" out:fade>Download CV Creative</a>
+					<a href="" download class="btn w-full" on:click={onClick} in:fly="{{ y: 200 }}" out:fade>Download CV Creative</a>
 					<p class="text-xs text-red-500 font-bold">*Last updated March 2022</p>
 				</div>
 				
