@@ -23,20 +23,16 @@
 							<div class="w-full flex my-8">
 								<div class="w-full">
 									<p>Email:</p>
-									<p>Phone:</p>
 								</div>
 								<div class="w-full font-semibold">
 									<p>maldijokosp@gmail.com</p>
-									<p>08981187320</p>
 								</div>
 							</div>
 							<div class="w-full flex my-5">
 								<div class="w-full ">
-									<p>Date of Birth:</p>
 									<p>Location:</p>
 								</div>
 								<div class="w-full font-semibold">
-									<p>22 September 1997</p>
 									<p>Yogyakarta, Indonesia</p>
 								</div>
 							</div>
