@@ -12,7 +12,7 @@
 				<div class="bottom-right hidden md:block"></div>
 				<div class="w-full md:w-1/2 h-auto md:h-[300px] bg-white border border-gray-600 rounded-md shadow-md md:absolute md:-top-44 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 flex">
 					<div class="hidden md:block w-full md:w-1/2 h-full">
-						<img class="hidden md:block w-full h-full object-contain" src="/profilefoto.JPG" alt="">
+						
 					</div>
 					<div class="w-full h-full">
 						<div class="w-full p-5">
