@@ -17,7 +17,7 @@
 					<div class="w-full h-full">
 						<div class="w-full p-5">
 							<div class="w-full my-1 text-center">
-								<h1 class="text-xl font-semibold mb-2">Muhammad Aldi Joko Satria Perdana</h1>
+								
 								<p class="text-lg text-gray-400">Frontend Developer</p>
 							</div>
 							
