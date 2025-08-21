@@ -22,10 +22,10 @@
 				<p class="w-full italic text-sm">Check Out My :</p>
 				<ul class="w-full flex gap-3">
 					<li class="circle flex items-center justify-center">
-						<a href="https://twitter.com/aldijokosp"><span class="iconify icon" data-icon="akar-icons:twitter-fill"></span></a>
+						<a href=""><span class="iconify icon" data-icon="akar-icons:twitter-fill"></span></a>
 					</li>
 					<li class="circle flex items-center justify-center">
-						<a href="https://instagram.com/aldijoko_aljok"><span class="iconify icon" data-icon="akar-icons:instagram-fill"></span></a>
+						<a href=""><span class="iconify icon" data-icon="akar-icons:instagram-fill"></span></a>
 					</li>
 					<li class="circle flex items-center justify-center">
 						<a href="https://www.linkedin.com/in/muhammad-aldi-joko-satria-perdana-3b955a13b"><span class="iconify icon" data-icon="akar-icons:linkedin-box-fill"></span></a>
